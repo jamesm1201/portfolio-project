@@ -1,12 +1,13 @@
 import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel'
 import './App.css'
+import Header from './components/Header';
 
-function App() {
+export default function App() {
 
   return (
     <>
-    <h1>Hi</h1>
+    <Header />
     <button type="button" className="btn btn-primary">Primary</button>
     
     <Button variant="success">Success</Button>{' '}
@@ -15,4 +16,4 @@ function App() {
   )
 }
 
-export default App
+ 

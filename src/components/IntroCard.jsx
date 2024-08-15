@@ -1,21 +1,22 @@
 import Card from 'react-bootstrap/Card';
 import haGiang from "../assets/ha-giang.jpg"
-import "./IntroCardStyle.css"
+import { CardHeader } from 'react-bootstrap';
+import { CardBody } from 'react-bootstrap';
 
 export default function IntroCard(){
     return (
-        <container className="container">
-        <Card className="bg-dark text-black" >
-          <Card.Img src={haGiang} style={{ objectFit: 'contain', marginTop: '10px', marginBottom: '10px', margin: '20px' }} alt="Card image" />
-          <Card.ImgOverlay>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
+        <Card className="card" >
+          <CardHeader style={{color: 'darkslategray'}}>Introduction to me</CardHeader>
+          <CardBody className="card-body">
+            <Card.Text style={{color: 'beige'}}>
+            Collaborative and diligent Computer Science graduate, eager to apply my problem solving skills to create impactful digital solutions. 
+            Experienced in virtual reality development and web design for multinational companies, with a strong foundation in interpersonal communication and logical reasoning. 
+            In my leisure time, I participate in team sports, gaming, and playing the guitar. 
+            Over nine years of playing for a rugby team, I honed my teamwork and communication abilities significantly.
             </Card.Text>
             <Card.Text>Last updated 3 mins ago</Card.Text>
-          </Card.ImgOverlay>
-        </Card>
-        </container>
+            <Card.Img src={haGiang} alt="Card image" className='card-image' />
+          </CardBody>  
+        </Card>   
     );
 }

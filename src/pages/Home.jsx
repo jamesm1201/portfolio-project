@@ -9,7 +9,6 @@ export default function Home(){
         <>
         <Header />
         <div>
-            <h1>This is the homepage</h1>
             <IntroCard />
             <HomeAccordion />
             <button type="button" className="btn btn-primary">Primary</button>

@@ -1,10 +1,12 @@
+import { AccordionHeader } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
 
 export default function HomeAccordion(){
     return(
+        <>
         <Accordion defaultActiveKey="0" className='accordion-home'>
             <Accordion.Item eventKey="0">
-                <Accordion.Header>Game Development</Accordion.Header>
+                <Accordion.Header >Game Development</Accordion.Header>
                 <Accordion.Body>
                     <strong>Game Development</strong> including Virtual reality skillset
                 </Accordion.Body>
@@ -22,5 +24,6 @@ export default function HomeAccordion(){
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>
+        </>
     );
 }

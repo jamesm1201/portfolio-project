@@ -7,6 +7,7 @@ export default function Projects(){
         <div>
             <h1>This is the projects page</h1>
         </div>
+        {/* <Footer /> */}
         </>
     );
 }

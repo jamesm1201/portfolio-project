@@ -7,6 +7,7 @@ export default function Resume(){
         <div>
             <h1>This is the CV download page</h1>
         </div>
+        {/* <Footer /> */}
         </>
     );
 }

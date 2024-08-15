@@ -7,6 +7,7 @@ export default function About(){
         <div>
             <h1>This is the hobbies and interests page</h1>
         </div>
+        {/* <Footer /> */}
         </>
     );
 }

@@ -1,0 +1,14 @@
+#card{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    size: 120px, 90px;
+    color: rgb(26, 151, 103);
+  }
+  #card-image{
+    padding: 5%;
+    object-fit: contain;
+  }
+  #card-body{
+    background-color: darkslategray;
+  }

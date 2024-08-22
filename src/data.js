@@ -20,3 +20,14 @@ export const EXAMPLES = {
         "State allows React components to change their output over time in response to user actions, network responses, and anything else.",
     },
   };
+
+  export const LOCATIONS ={
+    thailand: {
+      title: 'Thailand',
+      description: 'Thailand was an incredible start to the trip, highlights of songkran, elephants and islands'
+    },
+    vietnam: {
+      title: 'Vietnam',
+      description: 'Vietnam is a country of variety. Highlights of Ha Giang, Quadbikes on dunes and War history'
+    }
+  }

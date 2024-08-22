@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import InterMap from "../components/InterMap";
 
 export default function About(){
     return(
@@ -6,6 +7,7 @@ export default function About(){
         <Header />
         <div>
             <h1>This is the hobbies and interests page</h1>
+            <InterMap />
         </div>
         {/* <Footer /> */}
         </>

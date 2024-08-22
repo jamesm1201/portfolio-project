@@ -21,13 +21,17 @@ export const EXAMPLES = {
     },
   };
 
-  export const LOCATIONS ={
-    thailand: {
+  export const LOCATIONS =[
+    {
       title: 'Thailand',
       description: 'Thailand was an incredible start to the trip, highlights of songkran, elephants and islands'
     },
-    vietnam: {
+    {
       title: 'Vietnam',
       description: 'Vietnam is a country of variety. Highlights of Ha Giang, Quadbikes on dunes and War history'
+    },
+    {
+      title: 'Laos',
+      description: 'Laos was a truly lovely country, we entered on longboat down the Mekong river over 2 days'
     }
-  }
+  ];

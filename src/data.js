@@ -1,3 +1,6 @@
+import phoneImg from './assets/braille-electronics.jpg'
+import westHam from './assets/west-ham-united.png'
+
 export const EXAMPLES = {
     frontend: {
       title: "Frontend",
@@ -33,5 +36,33 @@ export const EXAMPLES = {
     {
       title: 'Laos',
       description: 'Laos was a truly lovely country, we entered on longboat down the Mekong river over 2 days'
+    }
+  ];
+
+  export const PROJECTSCAROUSEL = [
+    {
+      image: phoneImg,
+      title: 'Braille Phone Case',
+      description: 'Phone case with Refreshable Braille display.'
+    },
+    {
+      image: westHam,
+      title: 'Virtual Reality Simulations',
+      description: 'Worked on multiple VR simulations of historic sites including a Roman Villa and a Medieval house in Salisbury'
+    },
+    {
+      image: westHam,
+      title: 'Dream Renewables Web App',
+      description: 'React frontend with Strapi CMS implementation. Heroku server and DB with AWS S3 bucket for image hosting.'
+    },
+    {
+      image: westHam,
+      title: '3D Model Viewing Web App',
+      description: 'Frontend for Bloomberg London HQ, Sketchfab API implemented to show 3D scans of the Mithraeum temple'
+    },
+    {
+      image: westHam,
+      title: 'Bespoke C# .Net API',
+      description: 'API with Azure Data Studio hosted DataBase, communication implemented through Dapper library'
     }
   ];

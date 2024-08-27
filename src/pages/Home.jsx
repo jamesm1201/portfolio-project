@@ -11,8 +11,6 @@ export default function Home(){
         <div>
             <IntroCard />
             <Skills />
-            <button type="button" className="btn btn-primary">Primary</button>
-            <Button variant="success">Success</Button>{' '}
         </div>
         <Footer />
         </>

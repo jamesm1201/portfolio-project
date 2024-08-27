@@ -7,7 +7,7 @@ import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import NoPage from './pages/NoPage';
 import './App.css'
-import Header from './components/Header';
+
 
 export default function App() {
 

@@ -1,8 +1,8 @@
 import Card from 'react-bootstrap/Card';
-import haGiang from "../assets/ha-giang.jpg"
+import haGiang from "../../assets/ha-giang.jpg"
 import { CardHeader } from 'react-bootstrap';
 import { CardBody } from 'react-bootstrap';
-import "./IntroCard.css"
+import "./intro-card.css"
 
 export default function IntroCard(){
     return (

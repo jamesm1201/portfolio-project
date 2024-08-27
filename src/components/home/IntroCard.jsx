@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import haGiang from "../assets/ha-giang.jpg"
+import haGiang from "../../assets/ha-giang.jpg"
 import { CardHeader } from 'react-bootstrap';
 import { CardBody } from 'react-bootstrap';
 import "./intro-card.css"

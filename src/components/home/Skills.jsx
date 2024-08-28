@@ -12,7 +12,7 @@ export default function Skills(){
     return (
         <section id="skills">
           <Tabs />
-          <h2>My programming skills</h2>
+          <h2>Programming skills</h2>
           <menu>
             <TabButton
               isSelected={selectedTopic === "frontend"}

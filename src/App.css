@@ -5,45 +5,14 @@
   font-size: 24px;
 }
 
-:root {
-  --background-light: #f1ece7;
-  --primary: #eea35d;
-  --on-primary: #3e250e;
-  --text-primary: #2e2114;
-  --text-secondary: #b9b9b9;
-  --text-muted: #b9b9b9;
-}
-
 body {
-  margin: 0;
-  padding-left: 40px;
-  padding-right: 40px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-light);
-  color: var(--text-primary);
 }
 
 html {
   font-size: 16px;
-}
-
-
-/* .accordion-button {
-    background-color: gray !important;
-  } */
-  
-  .accordion-button:focus {
-    box-shadow: none;
-  }
-  
-/*  
-  .accordion-home {
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-  } */
+} 
 
   /* Footer Styles */
 .footer {

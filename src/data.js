@@ -1,5 +1,6 @@
 import phoneImg from './assets/braille-electronics.jpg'
 import westHam from './assets/west-ham-united.png'
+import saxonVr from './assets/saxon-vr.jpg'
 
 export const EXAMPLES = {
     frontend: {
@@ -46,7 +47,7 @@ export const EXAMPLES = {
       description: 'Phone case with Refreshable Braille display.'
     },
     {
-      image: westHam,
+      image: saxonVr,
       title: 'Virtual Reality Simulations',
       description: 'Worked on multiple VR simulations of historic sites including a Roman Villa and a Medieval house in Salisbury'
     },

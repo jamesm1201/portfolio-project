@@ -9,7 +9,7 @@
   }
   #card-image{
     padding: 5%;
-    object-fit: contain;
+    object-fit:cover;
   }
    #card-body{
     /* background-color: rgb(247, 240, 240); */
@@ -19,6 +19,8 @@
 }
 #card-content{
   display: inline-flex;
+  margin-inline: 5% 5%;
+  writing-mode: horizontal-tb;
 }
 #intro-card-text{
   margin-top: auto;
@@ -30,3 +32,4 @@
   margin-left:auto;
   color: darkslategray;
 }
+

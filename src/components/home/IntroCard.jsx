@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import haGiang from "../../assets/ha-giang.jpg"
+import elephant from "../../assets/elephant.jpg"
 import { CardHeader } from 'react-bootstrap';
 import { CardBody } from 'react-bootstrap';
 import "./intro-card.css"
@@ -12,14 +12,12 @@ export default function IntroCard(){
           <ul id='card-content'>
             <li id='card-content'>
               <Card.Text style={{color: 'black'}} id='intro-card-text'>
-                          Collaborative and diligent Computer Science graduate, eager to apply my problem solving skills to create impactful digital solutions. 
-                          Experienced in virtual reality development and web design for multinational companies, with a strong foundation in interpersonal communication and logical reasoning. 
-                          In my leisure time, I participate in team sports, gaming, and playing the guitar. 
-                          Over nine years of playing for a rugby team, I honed my teamwork and communication abilities significantly.
+                <h2 id='intro-card-title'>James</h2>
+                          Aspiring full stack developer with 2 years of experience with Virtual Reality simulations, Database Adiministration and Web Development.
                           </Card.Text>
             </li>
             <li id='card-content'>
-            <Card.Img src={haGiang} alt="Card image" id='card-image' />
+            <Card.Img src={elephant} alt="James with an elephant in Thailand" id='card-image' />
             </li>
           </ul>
           </CardBody>  

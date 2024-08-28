@@ -7,7 +7,7 @@ import { CarouselItem, CarouselCaption } from 'react-bootstrap';
 
 export default function ProjCarousel(){
     return(
-        <Carousel fade className='carousel'>
+        <Carousel className='carousel'>
             {PROJECTSCAROUSEL.map((carouselItem) =>
                 <CarouselItem key={carouselItem.title}>
                     <img src={carouselItem.image} alt='Example Image' className='caro-img' />

@@ -1,6 +1,8 @@
 import phoneImg from './assets/braille-electronics.jpg'
 import westHam from './assets/west-ham-united.png'
 import saxonVr from './assets/saxon-vr.jpg'
+import dreamImg from './assets/dream-frontend.png'
+import mithImg from './assets/mithraeum.jpg'
 
 export const EXAMPLES = {
     frontend: {
@@ -52,12 +54,12 @@ export const EXAMPLES = {
       description: 'Worked on multiple VR simulations of historic sites including a Roman Villa and a Medieval house in Salisbury'
     },
     {
-      image: westHam,
+      image: dreamImg,
       title: 'Dream Renewables Web App',
       description: 'React frontend with Strapi CMS implementation. Heroku server and DB with AWS S3 bucket for image hosting.'
     },
     {
-      image: westHam,
+      image: mithImg,
       title: '3D Model Viewing Web App',
       description: 'Frontend for Bloomberg London HQ, Sketchfab API implemented to show 3D scans of the Mithraeum temple'
     },

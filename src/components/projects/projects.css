@@ -1,31 +1,38 @@
-.caro-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit:contain;
+.projects-title{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-
+.carousel img{
+    height: fit-content;
+    width: 100%; 
+    vertical-align: middle;  
+}
 
 .carousel{
-    background-color: darkslategray;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    height: 50%;
+    width: 75%;
+    margin: auto;
 }
 .caro-caption{
     color: black;
 }
 
 .project-card{
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     /* size: 90%, 20%; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
 .project-card:hover {
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);
+}
+.project-card-list{
+    display: inline-flex;
+    margin-left: 20%;
+    margin-right: 20%;
 }

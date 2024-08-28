@@ -11,9 +11,8 @@ export default function ProjCarousel(){
             {PROJECTSCAROUSEL.map((carouselItem) =>
                 <CarouselItem key={carouselItem.title}>
                     <img src={carouselItem.image} alt='Example Image' className='caro-img' />
-                    <CarouselCaption>
-                    <h3 className='caro-caption'>{carouselItem.title}</h3>
-                    <p className='caro-caption'>{carouselItem.description}</p>
+                    <CarouselCaption className='caro-caption'>
+                    <h3>{carouselItem.title}</h3>
                     </CarouselCaption>
                 </CarouselItem>
             )}

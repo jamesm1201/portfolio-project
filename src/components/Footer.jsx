@@ -1,34 +1,35 @@
+import * as Bs from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import githubLogo from "../assets/github-mark-white.png";
+import jmLogo from "../assets/jm-no-back.png";
+import linkedinWhite from '../assets/linkedin-white.png'
+import './footer.css'
 
-import { FontAwesomeIcon } 
-    from '@fortawesome/react-fontawesome'; 
-import githubWhite from "../assets/github-mark-white.png"
-
-export default function Footer(){
-    return ( 
-        <footer className="footer"> 
-        <div className="container"> 
-            <div className="row"> 
-            <div className="col-md-6"> 
-                <p>© 2024 MORLEY. All rights reserved.</p> 
-            </div> 
-            <div className="col-md-6 text-md-right"> 
-                <ul className="social-icons list-unstyled"> 
-                <li> 
-                    <a 
-    href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"> 
-                    <FontAwesomeIcon icon={githubWhite} /> 
-                    </a> 
-                </li> 
-                <li> 
-                    <a href= 
-    "https://github.com/yourusername" target="_blank" rel="noopener noreferrer"> 
-                    <FontAwesomeIcon icon={githubWhite} /> 
-                    </a> 
-                </li> 
-                </ul> 
-            </div> 
-            </div> 
-        </div> 
-        </footer> 
-    );
+export default function Footer() {
+  return (
+      <Bs.Container fluid className="bg-dark footer" >
+        <Bs.Row >
+          <Bs.Col xl="3" className="mb-4 mt-4">
+            <img src={jmLogo}></img>
+          </Bs.Col>
+          <Bs.Col xl="3"></Bs.Col>
+          <Bs.Col xl="6">
+            <Bs.Row>
+              <h3>Links</h3>
+            </Bs.Row>
+            <Bs.Row>
+              <Bs.Button href="https://github.com/jamesm1201" className='w-auto mx-auto'>
+                <img src={githubLogo}></img>
+              </Bs.Button>
+            </Bs.Row>
+            <Bs.Row>
+              <Bs.Button href="https://www.linkedin.com/in/james-morley-736b79209" className='w-auto mx-auto'>
+                <img src={linkedinWhite}></img>
+              </Bs.Button>
+            </Bs.Row>
+          </Bs.Col>
+        </Bs.Row>
+      </Bs.Container>
+    
+  );
 }

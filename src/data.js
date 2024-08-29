@@ -1,6 +1,8 @@
-import phoneImg from './assets/braille-electronics.jpg'
+import phoneImg from './assets/braille-case.jpg'
 import westHam from './assets/west-ham-united.png'
 import saxonVr from './assets/saxon-vr.jpg'
+import dreamImg from './assets/dream-renewables.png'
+import mithImg from './assets/mithraeum.jpg'
 
 export const EXAMPLES = {
     frontend: {
@@ -44,26 +46,21 @@ export const EXAMPLES = {
     {
       image: phoneImg,
       title: 'Braille Phone Case',
-      description: 'Phone case with Refreshable Braille display.'
     },
     {
       image: saxonVr,
       title: 'Virtual Reality Simulations',
-      description: 'Worked on multiple VR simulations of historic sites including a Roman Villa and a Medieval house in Salisbury'
     },
     {
-      image: westHam,
+      image: dreamImg,
       title: 'Dream Renewables Web App',
-      description: 'React frontend with Strapi CMS implementation. Heroku server and DB with AWS S3 bucket for image hosting.'
     },
     {
-      image: westHam,
+      image: mithImg,
       title: '3D Model Viewing Web App',
-      description: 'Frontend for Bloomberg London HQ, Sketchfab API implemented to show 3D scans of the Mithraeum temple'
     },
     {
       image: westHam,
       title: 'Bespoke C# .Net API',
-      description: 'API with Azure Data Studio hosted DataBase, communication implemented through Dapper library'
     }
   ];

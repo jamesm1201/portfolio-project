@@ -1,22 +1,20 @@
-
-import Carousel from 'react-bootstrap/Carousel';
+import * as Bs from 'react-bootstrap'
 import './projects.css'
 import { PROJECTSCAROUSEL } from '../../data';
-import { CarouselItem, CarouselCaption } from 'react-bootstrap';
+
 
 
 export default function ProjCarousel(){
     return(
-        <Carousel fade className='carousel'>
+        <Bs.Carousel className='carousel'>
             {PROJECTSCAROUSEL.map((carouselItem) =>
-                <CarouselItem key={carouselItem.title}>
+                <Bs.CarouselItem key={carouselItem.title}>
                     <img src={carouselItem.image} alt='Example Image' className='caro-img' />
-                    <CarouselCaption>
-                    <h3 className='caro-caption'>{carouselItem.title}</h3>
-                    <p className='caro-caption'>{carouselItem.description}</p>
-                    </CarouselCaption>
-                </CarouselItem>
+                    <Bs.CarouselCaption className='caro-caption'>
+                    <h3>{carouselItem.title}</h3>
+                    </Bs.CarouselCaption>
+                </Bs.CarouselItem>
             )}
-        </Carousel>
+        </Bs.Carousel>
     );
 }

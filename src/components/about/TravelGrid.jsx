@@ -1,6 +1,5 @@
 
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import * as Bs from 'react-bootstrap'
 import { LOCATIONS } from '../../data';
 import TravelCard from './TravelCard';
 
@@ -8,13 +7,13 @@ export default function TravelGrid(){
     return (
         <section>
             <h2>Highlights from Backpacking</h2>
-        <Row xs={1} md={2}>
+        <Bs.Row xs={1} md={2}>
         {LOCATIONS.map((idx) => (
-        <Col key={idx}>
+        <Bs.Col key={idx}>
           <TravelCard key={idx} {...idx}/>
-        </Col>
+        </Bs.Col>
       ))}
-    </Row>
+    </Bs.Row>
     </section>
     ); 
 }

@@ -1,37 +1,35 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import * as Bs from 'react-bootstrap'
 import jmLogo from '../assets/jm-no-back.png'
 import './header.css'
 
 export default function Header(){
     return(
-        <Navbar expand="lg" bg="dark" data-bs-theme="dark" sticky="top" id='header'>
+        <Bs.Navbar expand="lg" bg="dark" data-bs-theme="dark" sticky="top" id='header'>
       <Container >
-        <Navbar.Brand href="/home" style={{marginRight: 150}}>
+        <Bs.Navbar.Brand href="/home" style={{marginRight: 150}}>
                 <img src={jmLogo} 
                      width="50" height="50" 
-                     alt="Logo" id='nav-link'/></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/projects" style={{marginRight: 50}} id='nav-link'>Projects</Nav.Link>
-            <Nav.Link href="/about" style={{marginRight: 50}} id='nav-link'>About Me</Nav.Link>
-            <Nav.Link href="/contact" style={{marginRight: 50}} id='nav-link'>Contact</Nav.Link>
-          </Nav>
-          <Nav>
-          <NavDropdown title="Links" id="basic-nav-dropdown">
-              <NavDropdown.Item href="https://github.com/jamesm1201">
+                     alt="Logo" id='nav-link'/></Bs.Navbar.Brand>
+        <Bs.Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Bs.Navbar.Collapse id="basic-navbar-nav">
+          <Bs.Nav className="me-auto">
+            <Bs.Nav.Link href="/projects" style={{marginRight: 50}} id='nav-link'>Projects</Bs.Nav.Link>
+            <Bs.Nav.Link href="/about" style={{marginRight: 50}} id='nav-link'>About Me</Bs.Nav.Link>
+            <Bs.Nav.Link href="/contact" style={{marginRight: 50}} id='nav-link'>Contact</Bs.Nav.Link>
+          </Bs.Nav>
+          <Bs.Nav>
+          <Bs.NavDropdown title="Links" id="basic-nav-dropdown">
+              <Bs.NavDropdown.Item href="https://github.com/jamesm1201">
                 GitHub
-              </NavDropdown.Item>
-              <NavDropdown.Item href="https://www.linkedin.com/in/james-morley-736b79209">
+              </Bs.NavDropdown.Item>
+              <Bs.NavDropdown.Item href="https://www.linkedin.com/in/james-morley-736b79209">
                 LinkedIn
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
+              </Bs.NavDropdown.Item>
+            </Bs.NavDropdown>
+          </Bs.Nav>
+        </Bs.Navbar.Collapse>
       </Container>
-    </Navbar>
+    </Bs.Navbar>
     );
 }

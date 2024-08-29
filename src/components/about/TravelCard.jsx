@@ -1,11 +1,11 @@
-import Card from 'react-bootstrap/Card';
+import * as Bs from 'react-bootstrap'
 
 export default function TravelCard(props){
     return(
-        <Card>
+        <Bs.Card>
             <img src={props.image} alt={props.title} />
             <h3>{props.title}</h3>
             <p>{props.description}</p>
-        </Card>
+        </Bs.Card>
     );
 }

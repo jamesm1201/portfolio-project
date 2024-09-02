@@ -8,7 +8,6 @@ import "./footer.css";
 export default function Footer() {
   return (
       <footer fluid className="bg-dark h-auto">
-      {/* // <Bs.Container fluid className="bg-dark"> */}
         <Bs.Row xl="3">
           <Bs.Col xl="3" className="mb-4 mt-4 ">
             <img src={jmLogo}></img>
@@ -36,7 +35,6 @@ export default function Footer() {
             </Bs.Row>
           </Bs.Col>
         </Bs.Row>
-      {/* // </Bs.Container> */}
   </footer>
   );
 }

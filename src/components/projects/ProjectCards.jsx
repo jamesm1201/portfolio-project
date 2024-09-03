@@ -90,11 +90,14 @@ export default function ProjectCards() {
                 </h3>
                 <ul>
                   <li>
-                    <strong>Game Development:</strong> Using object-oriented patterns to decouple functionality e.g. Observer pattern and event driven programming.
+                    <strong>Game Development:</strong> Using object-oriented
+                    patterns to decouple functionality e.g. Observer pattern and
+                    event driven programming.
                   </li>
                   <li>
-                    <strong>Software Lifecycle:</strong> Created workflows involving a team of varied roles. 
-                    Implemented in-house and client based user testing.
+                    <strong>Software Lifecycle:</strong> Created workflows
+                    involving a team of varied roles. Implemented in-house and
+                    client based user testing.
                   </li>
                 </ul>
               </Bs.Col>
@@ -104,11 +107,60 @@ export default function ProjectCards() {
                 </h3>
                 <ul>
                   <li>
-                    <strong>C#:</strong> Using this language for game development has led me to focus on C# based backends with .Net.
+                    <strong>C#:</strong> Using this language for game
+                    development has led me to focus on C# based backends with
+                    .Net.
                   </li>
                   <li>
-                    <strong>Unreal Engine:</strong> The VR plugins provided help create robust simulations with high optimisation potential.
-                    I learned a lot about animation and physics simulations which proved interesting.
+                    <strong>Unreal Engine:</strong> The VR plugins provided help
+                    create robust simulations with high optimisation potential.
+                    I learned a lot about animation and physics simulations
+                    which proved interesting.
+                  </li>
+                </ul>
+              </Bs.Col>
+            </Bs.Row>
+          </Bs.AccordionBody>
+        </Bs.AccordionItem>
+        <Bs.AccordionItem eventKey="2" className="text-bg-dark">
+          <Bs.AccordionHeader>Dream Renewables Web App</Bs.AccordionHeader>
+          <Bs.AccordionBody>
+            <Bs.Row className="align-items-center">
+              <Bs.Col xl="6">
+                The charity Dream Renewables is a great organisation teaching Ghanaian communities to create and maintain energy solutions. 
+                I am part of a team working with the charity to overhaul their online presence by developing a new Web App. 
+                Frontend is developed in React with TypeScript and hosting of databases and server is Heroku cloud based.
+                Feel free to peruse progress in the public GitHub repo (link in header)
+              </Bs.Col>
+              <Bs.Col xl="3">
+                <h3 className="text-center">
+                  <strong>Skills</strong>
+                </h3>
+                <ul>
+                  <li>
+                    <strong>Frontend:</strong> React and Bootstrap together provide a powerful combination for making a site simple and responsive. 
+                  </li>
+                  <li>
+                    <strong>Cloud Infrastructure:</strong> Payments, heroku, aws bitbucket and secue access, Terraform infrastructure allocation
+                  </li>
+                </ul>
+              </Bs.Col>
+              <Bs.Col xl="3">
+                <h3 className="text-center">
+                  <strong>Languages and Stack</strong>
+                </h3>
+                <ul>
+                  <li>
+                    <strong>TypeScript:</strong> Using this over JavaScript promotes use of interfaces so I know what form of data to expect.
+                  </li>
+                  <li>
+                    <strong>Terraform:</strong> This language is perfect for working in teams as all current infrastructure can be checked by looking at the repo. 
+                  </li>
+                  <li>
+                    <strong>Cypress:</strong> End-to-end testing is a neccessary to improve user experience, Cypress is a very useful tool 
+                  </li>
+                  <li>
+                    <strong>Strapi CMS:</strong> Using this tool, the client is able to easily change content on the website without having to look at the code. 
                   </li>
                 </ul>
               </Bs.Col>

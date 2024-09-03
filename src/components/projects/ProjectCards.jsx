@@ -65,7 +65,7 @@ export default function ProjectCards() {
             </Bs.Row>
           </Bs.AccordionBody>
         </Bs.AccordionItem>
-        <Bs.AccordionItem eventKey="1">
+        <Bs.AccordionItem eventKey="1" className="text-bg-dark">
           <Bs.AccordionHeader>
             Virtual Reality Simulations with Wessex Archaeology
           </Bs.AccordionHeader>
@@ -90,10 +90,11 @@ export default function ProjectCards() {
                 </h3>
                 <ul>
                   <li>
-                    <strong>Game Development:</strong> 
+                    <strong>Game Development:</strong> Using object-oriented patterns to decouple functionality e.g. Observer pattern and event driven programming.
                   </li>
                   <li>
-                    <strong>Software Lifecycle:</strong> Development of workflows involving a team of varied roles 
+                    <strong>Software Lifecycle:</strong> Created workflows involving a team of varied roles. 
+                    Implemented in-house and client based user testing.
                   </li>
                 </ul>
               </Bs.Col>
@@ -103,19 +104,11 @@ export default function ProjectCards() {
                 </h3>
                 <ul>
                   <li>
-                    <strong>Arduino:</strong> Used with the Raspberry Pi to turn
-                    the motors and columns to specific angles.
+                    <strong>C#:</strong> Using this language for game development has led me to focus on C# based backends with .Net.
                   </li>
                   <li>
-                    <strong>Java:</strong> This program was responsible for
-                    recieving data from a device and formatting to allow the
-                    data to be displayed by 6-bit braille.
-                  </li>
-                  <li>
-                    <strong>CAD: </strong> Used in the design process for
-                    prototype and higher fidelity models including Pizoelectric
-                    Bimorphs to raise pins instead of columns with pits and
-                    lands
+                    <strong>Unreal Engine:</strong> The VR plugins provided help create robust simulations with high optimisation potential.
+                    I learned a lot about animation and physics simulations which proved interesting.
                   </li>
                 </ul>
               </Bs.Col>

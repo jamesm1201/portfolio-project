@@ -6,7 +6,7 @@ import "./intro-card.css"
 export default function IntroCard(){
     return (
         <Bs.Card id="card" >
-          {/* <CardHeader id='intro-card-title'>James Morley</CardHeader> */}
+          
           <Bs.CardBody id="card-body">
           <ul id='card-content'>
             <li id='card-content'>

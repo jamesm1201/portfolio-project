@@ -12,7 +12,7 @@ export default function IntroCard(){
             <li id='card-content'>
               <Bs.Card.Text style={{color: 'black'}} id='intro-card-text'>
                 <h2 id='intro-card-title'>James</h2>
-                          Aspiring full stack developer with 2 years of experience with Virtual Reality simulations, Database Adiministration and Web Development.
+                          Aspiring full stack developer with 2 years of experience in Virtual Reality simulations, Database Adiministration and Web Development.
                           </Bs.Card.Text>
             </li>
             <li id='card-content'>

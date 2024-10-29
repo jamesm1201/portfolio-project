@@ -15,7 +15,6 @@ export default function Footer() {
             <p className="text-light mt-3">James Morley</p>
           </Bs.Col>
           <Bs.Col className="p-5">
-            
           </Bs.Col>
           <Bs.Col className="p-5">
             <h3 className="text-light">Get in touch!</h3>

@@ -2,16 +2,19 @@ import { useState } from "react";
 import TabButton from "./TabButton";
 import { EXAMPLES } from "../../data";
 import Tabs from "./Tabs";
-import "./Skills.css"
+import "./Skills.css";
+import * as Bs from "react-bootstrap";
 
-export default function Skills(){
-    const [selectedTopic, setSelectedTopic] = useState();
-    function handleSelect(selectedButton) {
-        setSelectedTopic(selectedButton);
-    }
-    return (
-        <section id="skills">
-          <Tabs />
+export default function Skills() {
+  const [selectedTopic, setSelectedTopic] = useState();
+  function handleSelect(selectedButton) {
+    setSelectedTopic(selectedButton);
+  }
+  return (
+    <section id="skills">
+      <Bs.Row>
+        <Bs.Col xl='4'>
+          {/* <Tabs /> */}
           <h2>Programming skills</h2>
           <menu>
             <TabButton
@@ -39,6 +42,8 @@ export default function Skills(){
               Embedded Systems
             </TabButton>
           </menu>
+        </Bs.Col>
+        <Bs.Col xl='8'>
           {!selectedTopic ? (
             <p>Please select a topic.</p>
           ) : (
@@ -47,6 +52,8 @@ export default function Skills(){
               <p>{EXAMPLES[selectedTopic].description}</p>
             </div>
           )}
-        </section>
-    );
+        </Bs.Col>
+      </Bs.Row>
+    </section>
+  );
 }

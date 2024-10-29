@@ -1,12 +1,13 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import ContactForm from "../components/contact/ContactForm"
 
 export default function Contact(){
     return(
         <>
         <Header />
         <div>
-            <h1>This is the contact information page</h1>
+            <ContactForm />
         </div>
         {/* <Footer /> */}
         </>
